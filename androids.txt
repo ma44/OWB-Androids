@@ -16,6 +16,7 @@ sub_units = {
 
 		categories = {
 			category_army
+			category_leg_infantry #Nothing can possibly go wrong
 			category_front_line
 			category_robots
 		}
