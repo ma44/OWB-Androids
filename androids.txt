@@ -28,7 +28,7 @@ sub_units = {
 
 		transport = synth_android_equipment
 
-		manpower = 5
+		manpower = 15
 		max_organisation = 60
 		max_strength = 25
 		default_morale = 0.3
