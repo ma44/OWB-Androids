@@ -359,10 +359,6 @@
   combat_robot_equipment_short:0 "Combat Robots"
   combat_robot_equipment_desc:0 ""
 
-  synthetic_robot_equipment:0 "Synthetic Robot"
-  synthetic_robot_equipment_short:0 "Synthetic Robots"
-  synthetic_robot_equipment_desc:0 ""
-
   support_robot_scrap_equipment:0 "Scrap-bot"
   support_robot_scrap_equipment_short:0 "Scrapbot"
   support_robot_scrap_equipment_desc:0 "The equivalent of industrial machinery given a tracked propulsion system, two submachine guns, and a metal shell covering sensitive parts, those \"scrap bots\" will still provide a tactical advantage in the form of an expendable shock trooper, or armoured shields that our troops can take cover behind during assaults."
@@ -429,17 +425,17 @@
   combat_robot_behemoth_equipment_short:0 ""
   combat_robot_behemoth_equipment_desc:0 "A gargantuan beast of a machine, calling this robot a walking tank would be a disservice to the sheer bulk in weaponry and armour it carries. Originally armed with four fast-firing .50 cal machine guns, those were replaced for a quadruple 20mm autocannon arrangement. Combined with armour thick enough to stop plasma projectiles, there is nothing our enemy can do but gasp before being shred to pieces."
 
-  synth_android_gen_1_tech:0 "Synthetic Robot - Gen 1"
-  synth_android_gen_1_tech_short:0 "Synth - Gen 1"
-  synth_android_gen_1_tech_desc:0 ""
+  synth_android_gen_one:0 "Synthetic Robot - Gen 1"
+  synth_android_gen_one_short:0 "Synth - Gen 1"
+  synth_android_gen_one_desc:0 ""
 
-  synth_android_gen_2_tech:0 "Synthetic Robot - Gen 2"
-  synth_android_gen_2_tech_short:0 "Synth - Gen 2"
-  synth_android_gen_2_tech_desc:0 ""
+  synth_android_gen_two:0 "Synthetic Robot - Gen 2"
+  synth_android_gen_two_short:0 "Synth - Gen 2"
+  synth_android_gen_two_tech_desc:0 ""
 
-  synth_android_gen_3_tech:0 "Synthetic Robot - Gen 3"
-  synth_android_gen_3_tech_short:0 "Synth - Gen 3"
-  synth_android_gen_3_tech_desc:0 ""
+  synth_android_gen_three:0 "Synthetic Robot - Gen 3"
+  synth_android_gen_three_short:0 "Synth - Gen 3"
+  synth_android_gen_three_desc:0 ""
 
  # Artillery
   artillery_equipment_1:0 "Artillery Equipment"

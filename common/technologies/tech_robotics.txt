@@ -83,7 +83,7 @@ technologies = {
 		}
 
 		enable_equipments = {
-			support_robot_scrap_equipment
+			synth_android_gen_one #support_robot_scrap_equipment
 		}
 		on_research_complete_limit = {
 		}
@@ -1159,7 +1159,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = synth_android_gen_1_tech
+			leads_to_tech = synth_android_gen_one_tech
 			research_cost_coeff = 1
 		}
 
@@ -1673,10 +1673,14 @@ technologies = {
 	#}
 
 	#IF PORTING OVER ANDROIDS, BEGIN COPY HERE ALL THE WAY DOWN TO THE NEXT COMMENT BLOCK
-	synth_android_gen_1_tech = {
+	synth_android_gen_one_tech = {
+
+		enable_subunits = {
+			synth_robot
+		}
 
 		enable_equipments = {
-			synth_android_gen_1
+			synth_android_gen_one
 		}
 
 		on_research_complete = {
@@ -1743,11 +1747,11 @@ technologies = {
 	synth_android_optimized_synthetic_production_tech = {
 
 		category_synth_robots = {
-			build_cost_ic = -0.2
+			build_cost_ic = -0.1
 		}
 
 		path = {
-			leads_to_tech = synth_android_gen_2_tech
+			leads_to_tech = synth_android_gen_two_tech
 			research_cost_coeff = 1
 		}
 
@@ -1790,13 +1794,24 @@ technologies = {
 		}
 	}
 
-	synth_android_gen_2_tech = {
+	synth_android_gen_two_tech = {
 
 		enable_equipments = {
-			synth_android_gen_2
+			synth_android_gen_two
 		}
 
 		on_research_complete = {
+			if = {
+				limit = {
+					NOT = {
+						has_template_containing_unit = synth_robot
+					}
+				}
+				hidden_effect = {
+					load_oob = "unlock_android"
+				}
+				custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			}
 			custom_effect_tooltip = synthetic_robot_tech
 		}
 
@@ -1853,7 +1868,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = synth_android_gen_3_tech
+			leads_to_tech = synth_android_gen_three_tech
 			research_cost_coeff = 1
 		}
 
@@ -1896,13 +1911,24 @@ technologies = {
 		}
 	}
 
-	synth_android_gen_3_tech = {
+	synth_android_gen_three_tech = {
 
 		enable_equipments = {
-			synth_android_gen_3
+			synth_android_gen_three
 		}
 
 		on_research_complete = {
+			if = {
+				limit = {
+					NOT = {
+						has_template_containing_unit = synth_robot
+					}
+				}
+				hidden_effect = {
+					load_oob = "unlock_android"
+				}
+				custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			}
 			custom_effect_tooltip = synthetic_robot_tech
 		}
 
