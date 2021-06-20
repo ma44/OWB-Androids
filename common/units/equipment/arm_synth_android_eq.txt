@@ -1,11 +1,11 @@
 equipments = {
 
-	synth_android_base_eq = {
+	synthetic_robot_equipment = {
 		year = 2275
 
 		is_archetype = yes
-		is_convertable = yes
-		picture = archetype_heavy_robot_equipment
+		is_convertable = no
+		picture = synthetic_robot_equipment
 		is_buildable = no
 		type = armor
 		group_by = archetype
@@ -43,10 +43,9 @@ equipments = {
 	synth_android_gen_1 = {
 		year = 2278
 
-		archetype = support_robot_equipment
+		archetype = synthetic_robot_equipment
 		priority = 5
 		visual_level = 0
-		is_convertable = yes
 
 		#Misc Abilities
 		maximum_speed = 4
@@ -79,13 +78,12 @@ equipments = {
 	synth_android_gen_2 = {
 		year = 2280
 
-		archetype = support_robot_equipment
+		archetype = synthetic_robot_equipment
 		priority = 5
 		visual_level = 0
-		is_convertable = yes
 
 		#Misc Abilities
-		maximum_speed = 4
+		maximum_speed = 5
 		reliability = 0.8
 
 		#Defensive Abilities
@@ -115,13 +113,13 @@ equipments = {
 	synth_android_gen_3 = {
 		year = 2282
 
-		archetype = support_robot_equipment
+		archetype = synthetic_robot_equipment
 		priority = 5
 		visual_level = 0
 		is_convertable = yes
 
 		#Misc Abilities
-		maximum_speed = 4
+		maximum_speed = 5
 		reliability = 0.8
 
 		#Defensive Abilities

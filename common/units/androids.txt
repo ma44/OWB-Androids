@@ -1,8 +1,8 @@
 
 sub_units = {
 
-	synth_android = {
-		sprite = combat_robot
+	synth_robot = {
+		sprite = synthetic_robot_equipment
 		map_icon_category = armored
 		priority = 2503
 		ai_priority = 2503
@@ -24,10 +24,10 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			synth_android_equipment = 25
+			synthetic_robot_equipment = 25
 		}
 
-		transport = synth_android_equipment
+		transport = synthetic_robot_equipment
 
 		manpower = 15
 		max_organisation = 60
