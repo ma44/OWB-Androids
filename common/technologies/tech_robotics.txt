@@ -83,7 +83,7 @@ technologies = {
 		}
 
 		enable_equipments = {
-			synth_android_gen_one #support_robot_scrap_equipment
+			support_robot_scrap_equipment
 		}
 		on_research_complete_limit = {
 		}
