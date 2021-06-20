@@ -1,0 +1,37 @@
+sub_unit_categories = {
+	category_army
+	category_front_line
+	category_demolitions
+	category_fireteams
+	category_robots
+	category_synth_robots
+	category_super_mutants
+	category_mutants
+	category_special_forces
+	category_light_special_forces
+	category_power_armour
+	category_infantry
+	category_militia
+	category_leg_infantry
+	category_weapon_infantry
+	category_vehicles
+	category_support
+	category_combat_support
+	category_non_combat_support
+	category_air_unit
+	category_spotter_plane
+	category_fighter
+	category_light_air
+	category_cas
+	category_bomber
+	category_transport
+	category_heavy_air
+	category_strat_bomber
+	category_blimp
+	category_special_forces
+	category_capital_ship
+	category_carrier_ship
+	category_screen_ship
+	category_implant
+	category_behemoth
+}

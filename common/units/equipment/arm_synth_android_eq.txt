@@ -1,6 +1,6 @@
 equipments = {
 
-	synth_android = {
+	synth_android_base_eq = {
 		year = 2275
 
 		is_archetype = yes
@@ -41,7 +41,7 @@ equipments = {
 		}
 
 	synth_android_gen_1 = {
-		year = 2275
+		year = 2278
 
 		archetype = support_robot_equipment
 		priority = 5
@@ -77,7 +77,7 @@ equipments = {
 		}
 
 	synth_android_gen_2 = {
-		year = 2279
+		year = 2280
 
 		archetype = support_robot_equipment
 		priority = 5
@@ -113,7 +113,7 @@ equipments = {
 		}
 
 	synth_android_gen_3 = {
-		year = 2283
+		year = 2282
 
 		archetype = support_robot_equipment
 		priority = 5
