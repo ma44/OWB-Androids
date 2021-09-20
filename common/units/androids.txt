@@ -2,17 +2,17 @@
 sub_units = {
 
 	synth_robot = {
-		sprite = synthetic_robot_equipment
-		map_icon_category = armored
+		sprite = synth_robot
+		map_icon_category = infantry
 		priority = 2503
 		ai_priority = 2503
 		active = yes
 
 		type = {
-			armor
+			infantry
 		}
 
-		group = robot_group
+		group = infantry
 
 		categories = {
 			category_army

@@ -1746,8 +1746,11 @@ technologies = {
 
 	synth_android_optimized_synthetic_production_tech = {
 
-		category_synth_robots = {
-			build_cost_ic = -0.1
+		equipment_bonus = {
+			synth_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
 		}
 
 		path = {
