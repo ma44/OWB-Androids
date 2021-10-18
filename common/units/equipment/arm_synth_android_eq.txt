@@ -22,7 +22,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 1
 		breakthrough = 1
-		hardness = 0.1
+		hardness = 0.3
 		armor_value = 1
 
 		fuel_consumption = 0.3
@@ -56,8 +56,8 @@ equipments = {
 		#Defensive Abilities
 		defense = 7 #Stats based off of infantry equipment
 		breakthrough = 4
-		hardness = 0
-		armor_value = 0
+		hardness = 0.3
+		armor_value = 5
 
 		fuel_consumption = 0.1
 
@@ -94,8 +94,8 @@ equipments = {
 		#Defensive Abilities
 		defense = 7
 		breakthrough = 6
-		hardness = 0
-		armor_value = 0
+		hardness = 0.4
+		armor_value = 10
 
 		fuel_consumption = 0.1
 
@@ -132,8 +132,8 @@ equipments = {
 		#Defensive Abilities
 		defense = 7
 		breakthrough = 8
-		hardness = 0
-		armor_value = 0
+		hardness = 0.5
+		armor_value = 15
 
 		fuel_consumption = 0.1
 

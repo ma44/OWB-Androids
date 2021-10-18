@@ -2,7 +2,7 @@
 sub_units = {
 
 	synth_robot = {
-		sprite = synth_robot
+		sprite = infantry #for now
 		map_icon_category = infantry
 		priority = 2503
 		ai_priority = 2503
