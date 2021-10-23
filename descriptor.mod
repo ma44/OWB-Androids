@@ -6,5 +6,5 @@ dependencies={
 	"Old World Blues"
 }
 name="OWB - Androids but special"
-supported_version="1.10.7"
+supported_version="1.10.8"
 remote_file_id="2496457012"
