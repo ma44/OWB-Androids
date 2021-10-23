@@ -425,6 +425,10 @@
   combat_robot_behemoth_equipment_short:0 ""
   combat_robot_behemoth_equipment_desc:0 "A gargantuan beast of a machine, calling this robot a walking tank would be a disservice to the sheer bulk in weaponry and armour it carries. Originally armed with four fast-firing .50 cal machine guns, those were replaced for a quadruple 20mm autocannon arrangement. Combined with armour thick enough to stop plasma projectiles, there is nothing our enemy can do but gasp before being shred to pieces."
 
+  synthetic_robot_equipment:0 "Synthetic Robot"
+  synthetic_robot_equipment_short:0 "Synthie"
+  synthetic_robot_equipment_desc:0 ""
+
   synth_android_gen_one:0 "Synthetic Robot - Gen 1"
   synth_android_gen_one_short:0 "Synth - Gen 1"
   synth_android_gen_one_desc:0 ""

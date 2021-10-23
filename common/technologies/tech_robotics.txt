@@ -1699,7 +1699,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = synth_android_optimized_synthetic_production_tech
+			leads_to_tech = synth_android_optimized_synthetic_weaponry_tech
 			research_cost_coeff = 1
 		}
 
@@ -1744,13 +1744,10 @@ technologies = {
 		}
 	}
 
-	synth_android_optimized_synthetic_production_tech = {
+	synth_android_optimized_synthetic_weaponry_tech = {
 
-		equipment_bonus = {
-			synth_equipment = {
-				build_cost_ic = -0.1
-				instant = yes
-			}
+		category_synth_robots = {
+			soft_attack = 0.1
 		}
 
 		path = {
